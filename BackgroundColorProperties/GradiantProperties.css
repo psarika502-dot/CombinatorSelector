@@ -1,0 +1,17 @@
+div{
+  height: 200px;
+  width: 500px;
+}
+.lineargradiant{
+  background: linear-gradient(black,maroon, brown, red,pink );
+  border: solid rgb(99, 97, 97);
+}
+.radianGraduant{
+  background:radial-gradient(maroon,red,pink );
+  box-shadow: 2px 2px 6px red;
+}
+.conicGradiant{
+  background:conic-gradient(white,lightblue,deepSkyBlue,DodgerBlue,CornflowerBlue,Royalblue,blue,darkblue,navy);
+  box-shadow: 2px 2px 10px black;
+  
+}
