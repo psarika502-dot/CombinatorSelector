@@ -1,0 +1,20 @@
+.bg{
+  height: 200px;
+  width: 200px;
+  margin: 100px;
+  border: 30px solid black;
+  background-color: salmon;
+  padding: 20px;
+  outline: 10px solid red;
+  outline-offset: 20px;
+  border-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPQTtoZcsn1pMwpsOiQUEBR0EN4rDMPVyGnqGA0IJCKA&s") stretch 30;
+  visibility: visible;
+  overflow: none;
+  /* it is used to that overflow content we control of that content */
+  overflow: scroll;
+  /* scrollbar-width is used ot scorll ball is not visible */
+  scrollbar-width: none; 
+  resize: vertical;
+  resize: horizontal;
+  resize: both;
+}
