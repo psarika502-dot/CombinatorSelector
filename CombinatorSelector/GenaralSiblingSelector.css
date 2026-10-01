@@ -1,0 +1,13 @@
+/* Adjacent sibling selector - symbol is (+) */
+section h4 +p{
+  background-color: pink;
+}
+
+/* section p+p+p{
+  background-color: orange;
+} */
+
+/* general sibling selector - symbol is (~) */
+section p~p{
+  background-color: red;
+}

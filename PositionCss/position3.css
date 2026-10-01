@@ -1,0 +1,32 @@
+.parent{
+  height: 700px;
+  width: 700px;
+  background-color: yellow;
+  position: relative;
+  border: solid red;
+  box-shadow: 2px 2px 3px red;
+}
+.box{
+  height: 150px;
+  width: 150px;
+  background-color: red;
+  border: solid black;
+  position: absolute;
+  left: 40px;
+  top: 200px;
+  box-shadow: 2px 2px 2px black;
+}
+.box:first-child{
+  background-color: green ;
+  position: absolute;
+  left: 270px;
+  top: 200px;
+  box-shadow: 2px 2px 2px black;
+}
+.box:last-child{
+  background-color: blue;
+  position: absolute;
+  top: 200px;
+  left: 500px;
+  box-shadow: 2px 2px 2px black;
+}

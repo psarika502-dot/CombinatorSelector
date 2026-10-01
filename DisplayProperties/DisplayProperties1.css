@@ -1,0 +1,25 @@
+
+h1{
+  height: 100px;
+  width: 200px;
+  background-color: pink;
+  display: inline;
+}
+span{
+  height: 100px;
+  width: 200px;
+  background-color: rgb(109, 236, 156);
+  color: red;
+  display: block;
+  border: solid;
+  text-align: center;
+}
+
+p{
+  background-color: orange;
+  height: 100px;
+  visibility: hidden;
+  width: 200px;
+  border: solid;
+  text-align: center;
+}

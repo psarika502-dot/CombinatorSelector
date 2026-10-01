@@ -1,0 +1,19 @@
+/* design only first child */
+.parent :first-child{
+  background-color: yellow;
+}
+
+/* desing only last child */
+.parent :last-child{
+  background-color: aqua;
+}
+
+/* design odd child denote odd also we denote 2n-1 */
+.parent :nth-child(odd){
+  color:blue
+}
+
+/* design even child also denote even we denote 2n */
+.parent :nth-child(even){
+  border: solid green;
+}

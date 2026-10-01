@@ -1,0 +1,36 @@
+.parent{
+  height: 200px;
+  width: 500px;
+  background-color: yellow;
+  position: relative;
+  top: 100px;
+  left: 400px;
+  box-shadow: 2px 2px 2px blue;
+}
+
+.parent .child{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  /* border: solid; */
+  position: absolute;
+  box-shadow: 2px 2px 2px gray;
+}
+
+.parent .child:first-child{
+  top: 40px ;
+  left: 37px;
+  background-color: aqua;
+}
+
+.parent .child:nth-child(2){
+  background-color: green;
+  top: 40px;
+  left: 190px;
+}
+
+.parent .child:last-child{
+  top: 40px;
+  left: 350px;
+  background-color: rgb(234, 27, 148);
+}

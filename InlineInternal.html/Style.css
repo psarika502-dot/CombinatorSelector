@@ -1,0 +1,43 @@
+*{
+  background-color: rgb(184, 105, 105);
+  /* text-decoration-color: cadetblue; */
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+  #first{
+  background-color: red;
+  width: 300px;
+}
+
+#second{
+  color: blue;
+  width: 300px;
+}
+
+#third{
+  background-color: green;
+  width: 300px;
+}
+
+.car{
+  background-color: yellow;
+  width: 500px;
+}
+.car{
+  background-color: magenta;
+}
+.car2{
+  background-color: rgb(189, 46, 46);
+  color: aliceblue;
+  width: 500px;
+}
+h3,h4,p{
+  background-color: bisque;
+  width: 200px;
+}
+
+#third,.car{
+  background-color: rgb(251, 58, 58);
+  color: yellow;
+  
+}

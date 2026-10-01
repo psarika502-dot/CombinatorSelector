@@ -1,0 +1,18 @@
+p{
+  text-align: center;
+  /* text-align: justify; */
+  /* text-align: left; */
+  /* text-align: right; */
+  text-decoration: overline;
+  text-decoration: underline;
+  text-transform: capitalize;
+  /* text-transform: uppercase; */
+  text-shadow: 4px 3px 2px yellow;
+  /* //its gives the paragraph -> first line space as like paragraph Text-indent: */
+  text-indent: 100px;  
+  text-decoration-color: green;
+  text-underline-offset: 7px;
+  letter-spacing:3px;
+  word-spacing: 100px;
+  line-height: 20px;
+}

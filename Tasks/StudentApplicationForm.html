@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="StudentApplicationFrom.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="parent">
+  <form action="">
+  <fieldset>
+    <legend  id="heading" >Student Application Form</legend>
+    <table class="forms">
+      
+      <tr>
+     <td class="tableParent"><label for="user">First Name: </label></td><br><br>
+     <td> <input type="text" id="user" name="name" required maxlength="15" class="inputField" pattern="[A-Za-z]{}"></td>
+    
+    <td class="tableParent"><label for="userLast">Last Name:</label></td>
+    <td><input type="text" id="userLast" name="name" required  class="inputField2" pattern="[A-Za-z]{0}"></td>
+    </tr>
+    <tr>
+    <td class="tableParent"><label for="birthDate" class="birth">Birth Date:</label></td>
+    <td><input type="date" id="birthDate" name="BirthDate" required class="inputField"></td>
+    
+    <td class="tableParent"><label for="number">Mob No:</label></td>
+    <td><input type="tel" id="number" name="mobileNumber" required maxlength="10" class="inputField2" pattern="[0-9]"></td>
+    </tr>
+
+    <tr>
+    <td class="tableParent"><label for="emailid" >Email Id:</label></td>
+    <td ><input type="email" id="emailid" name="email" required pattern="A-Za-z0-1@#" class="inputField"></td>
+    </tr>
+    <tr>
+    <td class="tableParent"><lable>Gender: </lable></td>
+    <td colspan="2"><input type="radio" name="Gender" value="Female" required  class="inputField2">Female</td>
+    <td ><input type="radio" name="Gender" value="male">Male</td>
+    <td><input type="radio" name="Gender" value="other">Other</td> 
+    </tr>
+    <tr>
+     <td class="tableParent"> <label for="address">Address:</label></td>
+     <td><textarea id="address" name="address" lass="inputField" class="inputField3" pattern="[A-Za-z]{}"></textarea></td>
+     <td class="tableParent"><label for="state">State:</label></td>
+     <td><input type="text" id="state" name="state" required class="inputField2" pattern="[A-Za-z]"></td>
+     <td class="tableParent"><label for="country">Country:</label></td>
+     <td><input type="text" id="country" name="country" required  class="inputField" pattern="[A-Za-z]"></td>
+    </tr>
+    <tr>
+      <td class="tableParent"><label for="pincode">Pin Code:</label></td>
+      <td><input type="Number" id="pincode" class="inputField2" pattern="[0-9]"></td>
+      <td class="tableParent"><label for="age">Age:</label></td>
+      <td><input type="Number" id="age" required max="18"class="inputField" pattern="[0-9]"></td>
+      <td class="tableParent"><label for="caste">Select Caste:</label></td>
+      <td ><select name="" id="">
+        <option value="OBC">OBC</option>
+        <option value="SC">SC</option>
+        <option value="ST">ST</option>
+        <option value="OPEN">OPEN</option>
+        <option value="VJNT">VJNT</option>
+      </select></td>
+    </tr>
+    <tr>
+      <td class="tableParent"><label for="branch">Branch:</label></td>
+      <td><select>
+        <option value="Computer Science">Computer Science</option>
+        <option value="Electronic Telecommunication">Electronic Telecommunication</option>
+        <option value="Civil">Civil</option>
+        <option value="Mechanical">Mechanical</option>
+        <option value="Electical">Electrical</option>
+        <option value="AIML">AIML</option>
+        <option value="DS">DS</option>
+      </select></td>
+    </tr>
+    <tr>
+      <td><label for="photo">Upload Photo:</label></td>
+      <td><input type="file" id="photo" name="image" accept=".png,.jpg" required></td>
+      <td><label for="signature">Upload Signature:</label></td>
+      <td><input type="file" id="signature" name="signaturePhoto" accept=".png,.jpg" required></td>
+    </tr>
+
+    </table>
+    <br><br>
+    <button id="button"><b>Submit</b></button>
+  </fieldset> 
+  </form>
+  </div>
+
+</body>
+</html>

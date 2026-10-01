@@ -1,0 +1,16 @@
+h3:hover{
+  color:red;
+  text-align: center;
+  transform: scale(2);
+  transition: 2s;
+  background-color: pink;
+}
+
+a:active{
+  color:red;
+}
+
+input:active{
+  background-color: red;
+  color:rgb(176, 135, 222);
+}

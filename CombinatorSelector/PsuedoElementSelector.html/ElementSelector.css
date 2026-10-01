@@ -1,0 +1,41 @@
+/* Pseudo-Element Selector symbols is(::) */
+/* 1. first Letter */
+/* 2. first Line */
+/* 3. before */
+/* 4. after */
+/* 5. selection */
+/* 6. marker */
+
+P::first-letter{
+  color: red;
+  font-size: 30px;
+}
+
+p::first-line{
+  color: blue;
+  font-size: 20px;
+  background-color: yellow;
+}
+
+p::before{
+  content: "Hello";
+  color: green;
+  font-size: 20px;
+}
+
+p::after{
+  content: "World";
+  color: rgb(35, 23, 167);
+  font-size: 20px;
+  background-color: rgb(221, 218, 23);
+}
+
+p::selection{
+  color: rgb(214, 60, 60);
+  background-color: rgb(20, 11, 11);
+}
+
+li::marker{
+  color: rgb(31, 64, 198);
+  font-size: 20px;
+}

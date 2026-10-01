@@ -1,0 +1,27 @@
+body{
+  height: 30000px;
+}
+.first{
+  height: 200px;
+  width: 200px;
+  background-color: green;
+  text-align: center;
+  position: relative;
+  left: 300px;
+}
+.second{
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+  text-align: center;
+  position: fixed;
+  left:300px;
+  top: 100px;
+}
+
+.third{
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  text-align: center;
+}

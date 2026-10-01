@@ -1,0 +1,112 @@
+
+.about{
+  height: 400px;
+  width: 800px;
+  background-color: black;
+  padding: 0px 30px;
+  color: white;
+  margin-left: 400px;
+}
+.about h1{
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 15px;
+  letter-spacing: 5px;
+  text-shadow: 2px 3px 3px rgb(239, 36, 36);
+}
+.about p{
+  text-align: justify;
+  line-height: 40px;
+  text-indent: 100px;
+}
+.flower{
+  height: 500px;
+  width: 900px ;
+  /* background-color: pink; */
+  padding: 0px 30px;
+  margin: 20px 30px;
+  /* border: solid black;  */
+  margin-left: 400px;
+  box-shadow: 2px 2px 8px gray;
+}
+.flower h1{
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 15px;
+  letter-spacing: 3px;
+  text-shadow: 2px 3px 3px rgb(239, 36, 36);
+}
+.flower p{
+  text-align: justify;
+  line-height: 40px;
+  text-indent: 100px;
+}
+.education{
+  height: 500px;
+  width: 900px ;
+  background-color: rgb(105, 115, 223);
+  padding: 0px 30px;
+  margin: 20px 30px;
+  border: solid rgb(72, 33, 141);
+  box-shadow: 2px 2px 3px blue;
+  margin-left: 400px;
+
+}
+.education h1{
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 15px;
+  letter-spacing: 3px;
+  text-shadow: 2px 3px 3px rgb(19, 16, 56);
+}
+.education p{
+  text-align: justify;
+  line-height: 40px;
+  text-indent: 100px;
+}
+.animals{
+  height: 370px;
+  width: 900px ;
+  background-color: rgb(143, 231, 166);
+  padding: 0px 30px;
+  margin: 20px 30px;
+  border: solid   rgb(33, 141, 46);
+  box-shadow: 2px 2px 3px blue;
+  margin-left: 400px;
+
+}
+.animals h1{
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 15px;
+  letter-spacing: 3px;
+   text-shadow: 2px 3px 3px rgb(20, 222, 41);
+}
+.animals p{
+  text-align: justify;
+  line-height: 40px;
+  text-indent: 100px;
+}
+.pune{
+  height: 370px;
+  width: 900px ;
+  background-color: rgb(205, 236, 66);
+  padding: 0px 30px;
+  margin: 20px 30px;
+  border: solid   rgb(31, 194, 22);
+  box-shadow: 2px 2px 3px rgb(148, 209, 27);
+  margin-left: 400px;
+}
+.pune h1{
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 15px;
+  letter-spacing: 3px;
+   text-shadow: 2px 3px 3px rgb(239, 36, 36);
+}
+.pune p{
+  text-align: justify;
+  line-height: 40px;
+  text-indent: 100px;
+}
+

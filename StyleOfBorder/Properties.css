@@ -1,0 +1,39 @@
+body{
+  background-color: black;
+}
+.bg{
+  height: 200px;
+  width: 200px;
+  /* seperate we will take border propeties */
+  border-style: solid;
+  border-width: 20px;
+  border-color: green;
+  /* border : thickness style color */
+  border: 20px solid red;
+  border-left: 20px solid green;
+  border-right: none;
+  border-top: 20px solid green;
+  border-bottom: none;
+  border-style: dashed;
+  border-style: dotted;
+  border-style: double;
+  /* 3d border */
+  /* border-style: thickness style color  */
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/055/143/187/small_2x/silhouette-of-a-bride-and-groom-embracing-capturing-a-romantic-moment-in-their-wedding-attire-against-a-light-background-png.png");
+  /* background-size: 300px 200px; */
+  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+  margin: 300px;
+  border: 20px ridge maroon;
+  border: 20px groove magenta;
+  border: 20px inset maroon;
+  border: 10px solid whitesmoke;
+  /* box shadow  */
+  /* box-shadow: right bottom blur spend color */
+  box-shadow: 0px 0px 20px 5px white;
+  border-radius: 60%;
+  /* border-radius: 100px 0 100px 0; */
+}

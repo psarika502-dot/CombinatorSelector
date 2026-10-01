@@ -1,0 +1,352 @@
+.cards{
+  /* text-align: center; */
+  /* border: solid 2px;    */
+  width: 300px;
+  height: 500px;
+  background-color: rgb(241, 212, 217);  
+  text-align: center;
+  box-shadow: 3px 3px 8px rgb(63, 8, 8);
+  padding: 6px 5px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 30px;
+
+}
+.cards h1{
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-shadow: 2px 3px 3px rgb(131, 16, 16);
+  text-transform: uppercase;
+  /* margin-top:;  */
+}
+.cards h4{
+  font-size: 30px;
+  margin-top: -50px;
+  color: chocolate;
+   text-shadow: 1px 1px 2px red;
+   margin-top: 20px;
+}
+#rating{
+  background-color: green;
+  color: white;
+  width: 55px;
+  height: 20px;
+  margin-top: 20px;
+ }
+ .cards p{
+  margin-top: -12px;
+ }
+
+ .cards button{
+  font-size: 20px;
+  background-color: rgb(223, 76, 76);
+  border-radius: 10px;
+  margin-top: 20px;
+ }
+ .cake{
+  margin-left: 400px;
+  margin-top: -520px; 
+  text-align: center;
+  box-shadow: 3px 3px 7px rgb(76, 146, 237);
+  padding: 6px 5px;
+  border-radius: 9px; 
+  width: 300px;
+  height: 500px;
+}
+.cake h1{
+  font-size: 40px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-shadow: 2px 3px 3px rgb(139, 84, 215);
+  text-transform: uppercase;
+
+}
+#ratingCake{
+  border-radius: 8px;
+  background-color: rgb(227, 87, 201);
+  color: white;
+  width: 55px;
+  height: 20px;
+  margin-top: 30px;
+}
+.cake p{
+   margin-top: -12px;
+}
+.cake button{
+   font-size: 19px;
+  background-color: rgb(181, 177, 177);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.jewellery{
+  margin-left: 760px;
+  margin-top: -510px; 
+  text-align: center;
+  box-shadow: 3px 3px 7px rgb(137, 59, 206);
+  padding: 6px 5px;
+  border-radius: 9px; 
+  border: blueviolet;
+  width: 300px;
+  height: 500px;
+}
+.jewellery h1{
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-shadow: 2px 3px 3px rgb(131, 16, 16);
+  /* text-transform: uppercase; */
+}
+.jewellery p{
+  text-indent: 9px;
+}
+.jewellery h3{
+  /* margin-left: -200px; */
+  font-size: 20px;
+}
+#jewellarySets{
+  margin-left: 210px;
+  border-radius: 8px;
+  background-color: green;
+  color: white;
+  width: 60px;
+  height: 20px;
+}
+.jewellery button{
+  font-size: 19px;
+  background-color: rgb(215, 170, 170);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.cards2{
+  width: 300px;
+  height: 500px;
+  background-color: rgb(114, 244, 192);  
+  text-align: center;
+  box-shadow: 3px 3px 8px rgb(63, 8, 8);
+  padding: 6px 5px;
+  border-radius: 5px;
+  margin-top: -510px;
+  margin-left: 67%;
+  
+}
+#rating2{
+   border-radius: 8px;
+  background-color: rgb(3, 90, 29);
+  color: white;
+  width: 55px;
+  height: 20px;
+  margin-top: -3px;
+  margin-left: 240px;
+}
+.description{
+  margin-top: -10px;
+}
+#redcolor{
+  color: red;
+}
+.cards2 button{
+  font-size: 19px;
+  background-color: rgb(221, 204, 204);
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 40px;
+}
+.Kitkat{
+  width: 300px;
+  height: 500px;
+  /* background-color: rgb(155, 188, 243);   */
+  text-align: center;
+  box-shadow: 3px 3px 8px rgb(63, 8, 8);
+  padding: 6px 5px;
+  border-radius: 5px;
+   margin-top: -510px;
+  margin-left: 88%;
+}
+.Kitkat h1{
+   text-decoration: underline;
+  text-underline-offset: 4px;
+  text-shadow: 2px 3px 3px rgb(131, 16, 16);
+  text-transform: uppercase;
+}
+#ckitkat{
+  margin-top: -40px;
+}
+h5{
+  margin-top: -30px;
+  margin-left: 200px;
+   border-radius: 8px;
+  background-color: rgb(3, 90, 29);
+  color: white;
+  width: 55px;
+  height: 20px;
+}
+.kitkatDescription{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Weight{
+  color: gray;
+}
+#kitkatRs{
+  margin-left: -220px;
+}
+.Dark{
+  width: 230px;
+  height: 430px;
+  /* background-color: rgb(155, 188, 243);   */
+  text-align: center;
+  box-shadow: 3px 3px 8px rgb(63, 8, 8);
+  padding: 6px 5px;
+  border-radius: 5px;
+   margin-top: 30px;
+  /* margin-left: 88%;  */
+}
+
+.darkDescription{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Weightdark{
+  color: gray;
+}
+.darkprice{
+  margin-left: -20px;
+  font-size:16px;
+}
+#darkbutton{
+  /* margin-top: 1000%; */
+  color: green;
+  border-color: green;
+  font: 300;
+}
+.much{
+  width: 230px;
+  height: 430px;
+  /* background-color: rgb(155, 188, 243);   */
+  text-align: center;
+  box-shadow: 3px 3px 8px rgb(63, 8, 8);
+  padding: 6px 5px;
+  border-radius: 5px;
+   margin-top: -440px;
+  margin-left: 17%;
+}
+
+.muchDescription{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 70px;
+}
+.Weightmuch{
+  color: gray;
+}
+.muchprice{
+  margin-left: -20px;
+  font-size:16px;
+}
+#muchbutton{
+  /* margin-top: 1000%; */
+  color: green;
+  border-color: green;
+  font: 300;
+}
+#cmuch{
+  margin-top: 40px;
+}
+
+.silk{
+  width: 230px;
+  height: 430px;
+  /* background-color: rgb(155, 188, 243);   */
+  text-align: center;
+  box-shadow: 3px 3px 8px rgb(63, 8, 8);
+  padding: 6px 5px;
+  border-radius: 5px;
+   margin-top: -440px;
+  margin-left: 34%;
+}
+
+.silkDescription{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 70px;
+}
+.Weightsilk{
+  color: gray;
+}
+.silkprice{
+  margin-left: -20px;
+  font-size:16px;
+}
+#silkbutton{
+  /* margin-top: 1000%; */
+  color: green;
+  border-color: green;
+  font: 300;
+}
+#csilk{
+  margin-top: 40px;
+}
+.cadbury{
+  width: 230px;
+  height: 430px;
+  /* background-color: rgb(155, 188, 243);   */
+  text-align: center;
+  box-shadow: 3px 3px 8px rgb(63, 8, 8);
+  padding: 6px 5px;
+  border-radius: 5px;
+   margin-top: -440px;
+  margin-left: 50%;
+}
+
+.cadburyDescription{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 70px;
+}
+.Weightcadbury{
+  color: gray;
+}
+.cadburyprice{
+  margin-left: -20px;
+  font-size:16px;
+}
+#cadburybutton{
+  /* margin-top: 1000%; */
+  color: green;
+  border-color: green;
+  font: 300;
+}
+#ccadbury{
+  margin-top: 40px;
+}
+
+
+.amul{
+  width: 230px;
+  height: 430px;
+  /* background-color: rgb(155, 188, 243);   */
+  text-align: center;
+  box-shadow: 3px 3px 8px rgb(63, 8, 8);
+  padding: 6px 5px;
+  border-radius: 5px;
+   margin-top: -440px;
+  margin-left: 67%;
+}
+
+.amulDescription{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 70px;
+}
+.Weightamul{
+  color: gray;
+}
+.amulprice{
+  margin-left: -20px;
+  font-size:16px;
+}
+#amulbutton{
+  /* margin-top: 1000%; */
+  color: green;
+  border-color: green;
+  font: 300;
+}
+#camul{
+  margin-top: 40px;
+}
+
+
+

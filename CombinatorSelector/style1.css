@@ -1,0 +1,22 @@
+/* Combinator Selector */
+/* descendant selector - symbol is (space) */
+section h1{
+  background-color: aqua;
+}
+h1{
+  background-color: yellow;
+}
+
+/* child selector - symbol is (>) - direct child */
+section>h1{
+  background-color: red;
+}
+
+aside h1{
+  color: green;
+}
+
+/* general sibling selector - symbol is (~) */
+section ~ h1{
+  background-color: blue;
+}
